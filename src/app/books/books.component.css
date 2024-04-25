@@ -1,0 +1,32 @@
+p{
+    background-color: aliceblue;
+    color: cadetblue;
+}
+.form{
+    height: 50vh;
+    background-color: rgba(121, 117, 112, 0.856);
+}
+.form button{
+    background-color: aquamarine;
+    padding: 10px 25px;
+    border: none;
+}
+
+.form input{
+    background-color: rgb(169, 180, 176);
+    padding: 10px 25px;
+    border: none;
+    max-width: fit-content;
+}
+
+.form input:hover {
+    background-color: rgb(219, 224, 222);
+    padding: 10px 25px;
+    border: none;
+}
+
+.components-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+

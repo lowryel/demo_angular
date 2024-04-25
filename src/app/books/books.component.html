@@ -1,0 +1,12 @@
+<p>books works!</p>
+<div>
+    <form class="form" action="" method="post">
+        <input type="text" name="search" placeholder="input text">
+        <button class="primary" type="submit">Search</button>
+    </form>
+    <section class="components-section">
+        <app-housing-location-component 
+        *ngFor="let housingLocation of housingLocationList"
+        [housingLocation]="housingLocation"></app-housing-location-component>
+    </section>
+</div>
